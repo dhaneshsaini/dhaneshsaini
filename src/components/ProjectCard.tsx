@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { RiGitRepositoryLine } from "react-icons/ri";
 
-export default function ProjectsCard({ length = null }) {
+export default function ProjectsCard({ Length = 99 }) {
   const [repo, setRepo] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -16,7 +16,7 @@ export default function ProjectsCard({ length = null }) {
       });
   }, []);
 
-  const projects = length !== null ? repo.slice(0, length) : repo;
+  const projects = Length ? repo.slice(0, Length) : repo;
 
   return (
     <>
@@ -30,7 +30,8 @@ export default function ProjectsCard({ length = null }) {
                   <a
                     target="_blank"
                     className="hover:underline"
-                    href={item.html_url}>
+                    href={item.html_url}
+                  >
                     {item.name}
                   </a>
                 </h3>
