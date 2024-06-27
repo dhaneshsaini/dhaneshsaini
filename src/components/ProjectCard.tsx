@@ -1,89 +1,29 @@
-"use client";
+import Image from "next/image";
+import Link from "next/link";
 
-import { useEffect, useState } from "react";
-import { RiGitRepositoryLine } from "react-icons/ri";
-
-export default function ProjectsCard({ Length = 99 }) {
-  const [repo, setRepo] = useState([]);
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  useEffect(() => {
-    fetch("https://api.github.com/users/dhaneshsaini/repos")
-      .then((res) => res.json())
-      .then((data) => {
-        setRepo(data);
-        setIsLoaded(true);
-      });
-  }, []);
-
-  const projects = Length ? repo.slice(0, Length) : repo;
-
-  return (
-    <>
-      {isLoaded ? (
-        <>
-          {projects.map((item: any, i) => (
-            <div key={i} className="border grid rounded-md p-3 bg-white">
-              <div className="flex gap-1 items-center mb-1">
-                <RiGitRepositoryLine />
-                <h3 className="text-gray-900 font-medium leading-relaxed">
-                  <a
-                    target="_blank"
-                    className="hover:underline"
-                    href={item.html_url}
-                  >
-                    {item.name}
-                  </a>
-                </h3>
-              </div>
-              <p className="text-gray-500 text-sm mb-2">
-                {truncate(item.description)}
-              </p>
-              <span className="text-xs font-medium">{item.language}</span>
-            </div>
-          ))}
-        </>
-      ) : (
-        <>
-          <Skeleton />
-          <Skeleton />
-          <Skeleton />
-          <Skeleton />
-        </>
-      )}
-    </>
-  );
+interface ProjectCard {
+  ImgLink: string;
+  Title: string;
+  Live:string;
 }
 
-function Skeleton() {
+const ProjectCard: React.FC<ProjectCard> = (props) => {
   return (
-    <div className="border rounded-md p-3 max-w-sm w-full mx-auto">
-      <div className="animate-pulse flex space-x-4">
-        <div className="flex-1 space-y-6 py-1">
-          <div className="flex gap-3">
-            <div className="rounded bg-gray-500 h-2 w-10" />
-            <div className="h-2 bg-gray-500 rounded w-2/3" />
-          </div>
-          <div className="space-y-3">
-            <div className="grid grid-cols-3 gap-4">
-              <div className="h-2 bg-gray-500 rounded col-span-2" />
-              <div className="h-2 bg-gray-500 rounded col-span-1" />
-            </div>
-            <div className="h-2 bg-gray-500 rounded" />
-          </div>
-        </div>
-      </div>
+    <div className="rounded-lg w-full relative bg-gray-200">
+      <Image
+        width={1600}
+        height={900}
+        alt=""
+        src={"/thumbs/" + props.ImgLink}
+        className="aspect-video rounded-lg object-center object-contain align-middle"
+      />
+      <Link href={"/projects/" + props.Live} className="w-full absolute top-0 left-0 h-full rounded-lg cursor-pointer hover:bg-gradient-to-t from-10% hover:from-black/50 to-90% hover:to-transparent flex items-end gap-5 justify-between p-3 group">
+        <span className="text-white font-medium text-lg leading-normal overflow-hidden text-ellipsis w-full opacity-0 group-hover:opacity-100 transition-transform duration-100 transform translate-y-10 group-hover:translate-y-0 text-overflow-ellipsis">
+            {props.Title}
+        </span>
+       </Link>
     </div>
   );
-}
+};
 
-function truncate(text: string) {
-  const maxLength = 100;
-  if (text !== null) {
-    if (text.length <= maxLength) {
-      return text;
-    } else {
-      return text.substring(0, maxLength) + "...";
-    }
-  }
-}
+export default ProjectCard;

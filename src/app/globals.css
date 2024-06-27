@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .text-overflow-ellipsis {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}

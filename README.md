@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img width="100" height="100" style="background:white;border-radius:50%"  src="https://github.com/dhaneshsaini.png" />
 
-## Getting Started
+Hi, I'm Dhanesh Saini, a self-taught passionate front-end developer from India.
 
-First, run the development server:
+🚩 __I’m looking to collaborate on:__<br/>
+Front-end projects
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🌱 __I’m currently learning:__<br/>
+React Native, App Development
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Tech Stack:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=black)
+![NextJS](https://img.shields.io/badge/NextJS-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![ReactJS](https://img.shields.io/badge/ReactJS-white?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)<br/>
+![Firebase](https://img.shields.io/badge/firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white)
+![NodeJS](https://img.shields.io/badge/nodejs-5FA04E?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/express-000?style=for-the-badge&logo=express&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-1283a7?style=for-the-badge&logo=react&logoColor=white)<br/>
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![VS Code](https://img.shields.io/badge/vscode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Notion](https://img.shields.io/badge/notion-black?style=for-the-badge&logo=notion&logoColor=white)
+![](https://visitcount.itsvg.in/api?id=dhaneshsaini&label=Profile%20Views&color=12&icon=8&pretty=false)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---

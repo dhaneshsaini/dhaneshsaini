@@ -1,3 +1,5 @@
+import React from "react";
+
 const experiencelist = [
   {
     title: "Freelacing",
@@ -21,7 +23,7 @@ export default function Experience() {
           {experiencelist.map((item, i) => (
             <li key={i} className="mb-10 ms-4">
               <div
-                className={`absolute w-3 h-3 ${item.present ? 'bg-gray-800' : 'bg-gray-200'} rounded-full mt-1.5 -start-1.5 border`}
+                className={`absolute w-3 h-3 ${item.present ? 'bg-gray-800 animate-ping' : 'bg-gray-200'} rounded-full mt-1.5 -start-1.5 border`}
               ></div>
               <div className="flex flex-row items-center gap-2">
                 <div className="text-md font-medium text-gray-900">
