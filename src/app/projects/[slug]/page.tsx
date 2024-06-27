@@ -1,9 +1,9 @@
 import React from "react";
-import { project_data } from "../page";
 import Image from "next/image";
 import ProjectCard from "@/components/ProjectCard";
 import Link from "next/link";
 import { IoIosArrowRoundBack } from "react-icons/io";
+import { project_data } from "@/components/ProjectsData";
 
 interface Params {
   slug: string;
@@ -47,11 +47,15 @@ const ProjectPost: React.FC<Props> = ({ params }) => {
             ))}
           </div>
           <div className="mt-5 mb-10">
-            <a target="_blank" className="text-xs border px-2 py-1 border-gray-900 hover:text-white hover:bg-gray-900 rounded" href={post.live}>
+            <a
+              target="_blank"
+              className="text-xs border px-2 py-1 border-gray-900 hover:text-white hover:bg-gray-900 rounded"
+              href={post.live}
+            >
               View Project
             </a>
           </div>
-        </div>       
+        </div>
 
         <Image
           src={"/thumbs/" + post.thumb}
