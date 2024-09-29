@@ -18,6 +18,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="icon"
+          href="https://github.com/dhaneshsaini.png"
+          type="image/png"
+          sizes="any"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="https://github.com/dhaneshsaini.png"
+          type="image/png"
+          sizes="any"
+        />
+      </head>
       <body className={`max-w-3xl px-5 mx-auto ${inter.className}`}>
         <Hero />
         <Navbar />

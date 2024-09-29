@@ -1,7 +1,6 @@
 import { Lora } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
-import { FaSquareXTwitter } from "react-icons/fa6";
 import { SiGithub, SiLinkedin, SiPeerlist } from "react-icons/si";
 
 const lora = Lora({ subsets: ["latin"] });
@@ -10,10 +9,6 @@ const social = [
   {
     icon: SiGithub,
     link: "https://github.com/dhaneshsaini",
-  },
-  {
-    icon: FaSquareXTwitter,
-    link: "https://x.com/5hanesh",
   },
   {
     icon: SiPeerlist,
@@ -32,8 +27,8 @@ export default function Hero() {
         <Link href="/">
           <Image
             className="rounded-full grayscale"
-            width={50}
-            height={50}
+            width={60}
+            height={60}
             alt="Dhanesh Saini"
             src="https://github.com/dhaneshsaini.png"
           />
@@ -41,7 +36,7 @@ export default function Hero() {
         <h1 className={`${lora.className} text-2xl leading-loose`}>
           Dhanesh Saini
         </h1>
-        <p className="text-gray-700 tracking-wide text-sm">Front-end Developer</p>
+        <p className="text-gray-700 tracking-wide text-sm">Full Stack Dev | Software Engineer</p>
       </div>
       <div className="flex gap-5 my-5">
         {social.map((item, i) => (
