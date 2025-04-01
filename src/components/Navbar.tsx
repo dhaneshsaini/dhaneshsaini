@@ -11,10 +11,6 @@ const navlinks = [
     name: "Projects",
     link: "/projects",
   },
-  {
-    name: "Github",
-    link: "/github",
-  },
 ];
 
 export default function Navbar() {

@@ -1,6 +1,7 @@
 import { Lora } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
+import { MdLocationOn } from "react-icons/md";
 import { SiGithub, SiLinkedin, SiPeerlist } from "react-icons/si";
 
 const lora = Lora({ subsets: ["latin"] });
@@ -26,7 +27,7 @@ export default function Hero() {
       <div className="mt-10">
         <Link href="/">
           <Image
-            className="rounded-full grayscale"
+            className="rounded-full grayscale hover:grayscale-0 transition-all duration-500"
             width={60}
             height={60}
             alt="Dhanesh Saini"
@@ -36,7 +37,12 @@ export default function Hero() {
         <h1 className={`${lora.className} text-2xl leading-loose`}>
           Dhanesh Saini
         </h1>
-        <p className="text-gray-700 tracking-wide text-sm">Full Stack Dev | Software Engineer</p>
+        <p className="text-gray-700 tracking-wide text-sm capitalize flex items-center gap-2">
+          <span>Full-stack Developer </span> |
+          <span className="flex gap-[2px] items-center">
+            <MdLocationOn /> <span className="text-xs font-medium">INDIA</span>
+          </span>
+        </p>
       </div>
       <div className="flex gap-5 my-5">
         {social.map((item, i) => (

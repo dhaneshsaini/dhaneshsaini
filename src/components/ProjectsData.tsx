@@ -36,13 +36,13 @@ export const project_data: ProjectData = [
     tech: ["NextJS", "TypeScript"],
   },
   {
-    title: "Weather App",
-    slug: "weather-app",
-    thumb: "weather.png",
+    title: "RNC Fintax",
+    slug: "rnc-fintax",
+    thumb: "rncfintax.png",
     description:
-      "A weather forecasting app built with React, displaying real-time weather data by fetching information from a weather API. The app provides current temperature, weather conditions, and forecasts for any location worldwide.",
-    live: "https://dhaneshsaini.github.io/weatherapp-react/",
-    tech: ["React", "API", "JavaScript"],
+      "A professional financial services website created using NextJS, designed for RNC Fintax. The site features various service offerings related to tax, accounting, and legal compliance, with a modern and responsive design.",
+    live: "https://rncfintax.com/",
+    tech: ["NextJS", "JavaScript"],
   },
   {
     title: "Pincode Finder",
@@ -54,13 +54,22 @@ export const project_data: ProjectData = [
     tech: ["React", "Pocketbase", "JavaScript"],
   },
   {
-    title: "RNC Fintax",
-    slug: "rnc-fintax",
-    thumb: "rncfintax.png",
+    title: "Branding Pioneers",
+    slug: "branding-pioneers",
+    thumb: "brandingpioneers.png",
     description:
-      "A professional financial services website created using NextJS, designed for RNC Fintax. The site features various service offerings related to tax, accounting, and legal compliance, with a modern and responsive design.",
-    live: "https://rncfintax.com/",
-    tech: ["NextJS", "JavaScript"],
+      "A digital marketing website built for Branding Pioneers. This React-powered website focuses on SEO, online branding, and marketing services to help businesses increase their digital presence.",
+    live: "https://healthpioneers.in/",
+    tech: ["React", "JavaScript"],
+  },
+  {
+    title: "Weather App",
+    slug: "weather-app",
+    thumb: "weather.png",
+    description:
+      "A weather forecasting app built with React, displaying real-time weather data by fetching information from a weather API. The app provides current temperature, weather conditions, and forecasts for any location worldwide.",
+    live: "https://dhaneshsaini.github.io/weatherapp-react/",
+    tech: ["React", "API", "JavaScript"],
   },
   {
     title: "Expense Tracker",
@@ -70,15 +79,6 @@ export const project_data: ProjectData = [
       "A Progressive Web App (PWA) for managing and tracking daily expenses. Built with React, it allows users to add, edit, and delete transactions, while maintaining a balance summary. The app is fully offline-capable and mobile-friendly.",
     live: "https://dhaneshsaini.github.io/expense-tracker/",
     tech: ["React", "PWA", "JavaScript"],
-  },
-  {
-    title: "Branding Pioneers",
-    slug: "branding-pioneers",
-    thumb: "brandingpioneers.png",
-    description:
-      "A digital marketing website built for Branding Pioneers. This React-powered website focuses on SEO, online branding, and marketing services to help businesses increase their digital presence.",
-    live: "https://healthpioneers.in/",
-    tech: ["React", "JavaScript"],
   },
   {
     title: "Sticky Notes",

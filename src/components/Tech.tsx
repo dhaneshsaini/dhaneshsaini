@@ -1,12 +1,14 @@
 import {
   SiCss3,
   SiFirebase,
+  SiGo,
   SiHtml5,
   SiJavascript,
   SiMongodb,
   SiNextdotjs,
   SiNodedotjs,
   SiPocketbase,
+  SiPython,
   SiReact,
   SiTailwindcss,
   SiTypescript,
@@ -62,6 +64,14 @@ const techstack = [
     name: "MongoDB",
     icon: SiMongodb,
   },
+  {
+    name: "Go",
+    icon: SiGo,
+  },
+  {
+    name: "Python",
+    icon: SiPython,
+  },
 ];
 
 export default function Tech() {
@@ -75,7 +85,8 @@ export default function Tech() {
           {techstack.map((item, i) => (
             <div
               className="flex rounded items-center gap-1 border border-gray-900 py-1 px-2 bg-gray-900 text-white"
-              key={i}>
+              key={i}
+            >
               <item.icon />
               <span className="text-xs font-medium">{item.name}</span>
             </div>

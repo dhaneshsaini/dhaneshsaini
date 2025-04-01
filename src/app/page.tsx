@@ -1,4 +1,4 @@
-import Experience from "@/components/Experience";
+// import Experience from "@/components/Experience";
 import ProjectCard from "@/components/ProjectCard";
 import { project_data } from "@/components/ProjectsData";
 import Tech from "@/components/Tech";
@@ -17,7 +17,7 @@ const Home: React.FC = () => {
         </p>
       </div>
       <Tech />
-      <Experience />
+      {/* <Experience /> */}
       <section className="my-16">
         <div className="my-5 flex items-center justify-between mb-4 ">
           <h2 className="font-medium text-gray-900 text-lg">Top Projects</h2>
