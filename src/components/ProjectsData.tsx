@@ -59,17 +59,8 @@ export const project_data: ProjectData = [
     thumb: "rncfintax.png",
     description:
       "A professional financial services website created using NextJS, designed for RNC Fintax. The site features various service offerings related to tax, accounting, and legal compliance, with a modern and responsive design.",
-    live: "https://rncfintax.com/",
+    live: "https://rncfintax.vercel.app/",
     tech: ["NextJS", "JavaScript"],
-  },
-  {
-    title: "Pincode Finder",
-    slug: "pincode-finder",
-    thumb: "pincode.png",
-    description:
-      "A React-based tool that helps users find Indian pincodes and their related information. The app integrates Pocketbase for backend storage and provides an efficient way to search through large datasets.",
-    live: "https://dhaneshsaini.github.io/pincode_finder/",
-    tech: ["React", "Pocketbase", "JavaScript"],
   },
   {
     title: "Branding Pioneers",
@@ -79,6 +70,15 @@ export const project_data: ProjectData = [
       "A digital marketing website built for Branding Pioneers. This React-powered website focuses on SEO, online branding, and marketing services to help businesses increase their digital presence.",
     live: "https://healthpioneers.in/",
     tech: ["React", "JavaScript"],
+  },
+  {
+    title: "Pincode Finder",
+    slug: "pincode-finder",
+    thumb: "pincode.png",
+    description:
+      "A React-based tool that helps users find Indian pincodes and their related information. The app integrates Pocketbase for backend storage and provides an efficient way to search through large datasets.",
+    live: "https://dhaneshsaini.github.io/pincode_finder/",
+    tech: ["React", "Pocketbase", "JavaScript"],
   },
   {
     title: "Weather App",
