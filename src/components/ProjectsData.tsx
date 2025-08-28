@@ -11,10 +11,10 @@ export const project_data: ProjectData = [
   {
     title: "Everyicon - Free Icon Maker",
     slug: "everyicon",
-    thumb: "everyicon.jpeg",
+    thumb: "everyicon.png",
     description:
       "A powerful online tool for creating icons, favicons, and logos with a variety of customization options including background shapes, colors, and font selection. Built using React, Astro, and Nanostores for state management.",
-    live: "https://everyicon.online/",
+    live: "https://everyicon-online.pages.dev/",
     tech: ["React", "Astro", "Nanostores"],
   },
   {
@@ -23,8 +23,26 @@ export const project_data: ProjectData = [
     thumb: "captionai.jpeg",
     description:
       "An AI-driven application that generates creative captions, alt text, and descriptions for images, designed to assist content creators across social media platforms. Developed with React and Astro, this tool leverages AI to create engaging content effortlessly.",
-    live: "https://captionai.pro/",
+    live: "https://captionaipro.pages.dev/",
     tech: ["React", "Astro"],
+  },
+  {
+    title: "Calculate Converter - Unit Converter & Calculator",
+    slug: "calculateconverter",
+    thumb: "calculateconverter.png",
+    description:
+      "A versatile web application that combines a unit converter and calculator, allowing users to perform various conversions and calculations in one place. Built with React and Astro, it offers a user-friendly interface for quick and accurate results.",
+    live: "https://calculateconverter.com/",
+    tech: ["Astro"],
+  },
+  {
+    title: "ResumeCV123 - Resume Builder",
+    slug: "resumecv123",
+    thumb: "resumecv123.png",
+    description:
+      "An intuitive resume builder that enables users to create professional resumes and CVs with customizable templates and easy-to-use editing tools. Developed using Vue.js, this application simplifies the resume creation process for job seekers.",
+    live: "https://resumecv123.netlify.app/",
+    tech: ["Vue"],
   },
   {
     title: "Portfolio",
