@@ -1,34 +1,41 @@
-# React + TypeScript + Vite
+<div align="center">
+  <h1>Hi there, I'm Dhanesh Saini 👋</h1>
+  <p><strong>Full-Stack Web Developer | High-Performance Architect | SaaS & AI Enthusiast</strong></p>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<br />
 
-Currently, two official plugins are available:
+I am a Full-Stack Web Developer with a passion for building high-performance, scalable, and user-centric web applications. My primary expertise revolves around modern browser APIs, performance optimization, and developing impactful SaaS products. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+My long-term mission is to develop an **AI-powered learning platform** for students and job seekers, featuring structured learning paths, previous-year papers, interview preparation, AI-generated explanations, and intelligent question prediction.
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### 💻 Core Stack & Technologies
 
-Note: This will impact Vite dev & build performances.
+I specialize in building reliable and scalable software using:
 
-## Expanding the Oxlint configuration
+- **Frontend**: JavaScript (ES6+), TypeScript, React, React Native, HTML5, CSS3, Tailwind CSS
+- **Backend & DB**: Node.js, Express, MongoDB, Firebase
+- **Performance & Low-Level**: WebAssembly (Wasm), AssemblyScript, Canvas API
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+---
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+### 🚀 What I'm Focused On
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- Exploring low-level browser concepts like **image processing** and **browser rendering**.
+- Building blazing fast, efficient web applications utilizing **WebAssembly** and **AssemblyScript**.
+- Designing clean, maintainable architectures for **SaaS** and **AI-driven products**.
+- Bridging the gap between beautiful minimalism and complex underlying functionality.
+
+--- 
+
+**Tech Stack**: React, TypeScript, Tailwind CSS (v4), Vite, React Router.
+
+### 📫 Let's Connect
+
+Whether I'm developing a business website, a web application, or a product from scratch, my focus is always on performance, usability, and delivering meaningful value through technology.
+
+- **Email**: [sainidhanesh58@gmail.com](mailto:sainidhanesh58@gmail.com)
+- **LinkedIn**: [linkedin.com/in/dhaneshsaini](https://linkedin.com/in/dhaneshsaini)
+- **Instagram**: [@dhaneshsaini](https://instagram.com/saini.dhanesh)
