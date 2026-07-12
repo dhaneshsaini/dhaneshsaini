@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #0B0B0B;
+  --foreground: #FFFFFF;
+  --secondary: #141414;
+  --card: #18181B;
+  --primary: #FF6B00;
+  --primary-hover: #FF7A1A;
+  --muted: #A1A1AA;
+  --border: rgba(255,255,255,0.08);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-secondary: var(--secondary);
+  --color-card: var(--card);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom utilities */
+.glass {
+  background: rgba(24, 24, 27, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #FFFFFF, #A1A1AA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.primary-gradient-text {
+  background: linear-gradient(135deg, #FF6B00, #FF9E5E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glow {
+  box-shadow: 0 0 40px -10px rgba(255, 107, 0, 0.3);
+}
+
+.glow-hover:hover {
+  box-shadow: 0 0 50px -10px rgba(255, 107, 0, 0.4);
+}

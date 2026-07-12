@@ -1,41 +1,36 @@
-<div align="center">
-  <h1>Hi there, I'm Dhanesh Saini 👋</h1>
-  <p><strong>Full-Stack Web Developer | High-Performance Architect | SaaS & AI Enthusiast</strong></p>
-</div>
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-<br />
+## Getting Started
 
-I am a Full-Stack Web Developer with a passion for building high-performance, scalable, and user-centric web applications. My primary expertise revolves around modern browser APIs, performance optimization, and developing impactful SaaS products. 
+First, run the development server:
 
-My long-term mission is to develop an **AI-powered learning platform** for students and job seekers, featuring structured learning paths, previous-year papers, interview preparation, AI-generated explanations, and intelligent question prediction.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### 💻 Core Stack & Technologies
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-I specialize in building reliable and scalable software using:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- **Frontend**: JavaScript (ES6+), TypeScript, React, React Native, HTML5, CSS3, Tailwind CSS
-- **Backend & DB**: Node.js, Express, MongoDB, Firebase
-- **Performance & Low-Level**: WebAssembly (Wasm), AssemblyScript, Canvas API
+## Learn More
 
----
+To learn more about Next.js, take a look at the following resources:
 
-### 🚀 What I'm Focused On
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Exploring low-level browser concepts like **image processing** and **browser rendering**.
-- Building blazing fast, efficient web applications utilizing **WebAssembly** and **AssemblyScript**.
-- Designing clean, maintainable architectures for **SaaS** and **AI-driven products**.
-- Bridging the gap between beautiful minimalism and complex underlying functionality.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
---- 
+## Deploy on Vercel
 
-**Tech Stack**: React, TypeScript, Tailwind CSS (v4), Vite, React Router.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### 📫 Let's Connect
-
-Whether I'm developing a business website, a web application, or a product from scratch, my focus is always on performance, usability, and delivering meaningful value through technology.
-
-- **Email**: [sainidhanesh58@gmail.com](mailto:sainidhanesh58@gmail.com)
-- **LinkedIn**: [linkedin.com/in/dhaneshsaini](https://linkedin.com/in/dhaneshsaini)
-- **Instagram**: [@dhaneshsaini](https://instagram.com/saini.dhanesh)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
