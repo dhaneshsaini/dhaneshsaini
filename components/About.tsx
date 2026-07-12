@@ -18,7 +18,7 @@ export function About() {
             className="relative"
           >
             <div className="aspect-square rounded-3xl overflow-hidden border border-white/10 bg-card p-2 relative group">
-              <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="absolute inset-0 bg-linear-to-tr from-primary/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="w-full h-full bg-secondary rounded-2xl border border-white/5 flex items-center justify-center relative overflow-hidden">
                 <Terminal className="w-24 h-24 text-white/10 absolute -right-4 -bottom-4 rotate-12" />
                 <div className="text-center p-8 z-10">
@@ -33,7 +33,7 @@ export function About() {
             
             {/* Floating Experience Badge */}
             <div className="absolute -right-6 -bottom-6 glass rounded-2xl p-6 shadow-2xl glow">
-              <div className="text-4xl font-extrabold text-primary mb-1">5+</div>
+              <div className="text-4xl font-extrabold text-primary mb-1">3+</div>
               <div className="text-sm text-muted font-medium">Years of<br/>Experience</div>
             </div>
           </motion.div>

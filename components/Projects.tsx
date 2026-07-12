@@ -6,27 +6,67 @@ import { ExternalLink } from "lucide-react";
 // Placeholder data since no specific projects were provided
 const projects = [
   {
-    title: "E-Commerce Platform",
-    desc: "A full-stack e-commerce solution with Next.js, Stripe, and Tailwind CSS. Features cart management and secure checkout.",
-    tech: ["Next.js", "TypeScript", "Tailwind", "Stripe"],
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1000&auto=format&fit=crop",
-    live: "#",
+    title: "Hitarth Hospital Care",
+    desc: "A complete hospital website for a leading healthcare provider, featuring specialized chest medicine details, 24x7 diagnostics info, and appointment booking.",
+    tech: ["Next.js", "Tailwind", "React"],
+    image: "https://s0.wp.com/mshots/v1/https://hitarthhospitalcare.com/?w=1000",
+    live: "https://hitarthhospitalcare.com/",
     github: "#"
   },
   {
-    title: "Healthcare Dashboard",
-    desc: "Patient management dashboard for clinics with appointment booking and real-time analytics.",
-    tech: ["React", "Node.js", "MongoDB", "Socket.io"],
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1000&auto=format&fit=crop",
-    live: "#",
+    title: "Calculate Converter",
+    desc: "The ultimate calculation toolkit offering a wide variety of math tools, unit converters, and health metrics calculators.",
+    tech: ["Astro", "Tailwind", "TypeScript"],
+    image: "https://s0.wp.com/mshots/v1/https://calculateconverter.com/?w=1000",
+    live: "https://calculateconverter.com/",
     github: "#"
   },
   {
-    title: "SaaS Landing Page",
-    desc: "High-converting, animated landing page for a modern B2B SaaS startup.",
-    tech: ["Next.js", "Framer Motion", "Tailwind"],
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop",
-    live: "#",
+    title: "IgniteWeb Agency",
+    desc: "Website design and web development agency portfolio built to generate leads. Offers fast, polished websites and React web apps.",
+    tech: ["Next.js", "Tailwind", "Framer Motion"],
+    image: "https://s0.wp.com/mshots/v1/https://www.igniteweb.site/?w=1000",
+    live: "https://www.igniteweb.site/",
+    github: "#"
+  },
+  {
+    title: "EveryIcon Maker",
+    desc: "Free online tool to create and customize SVG icons, favicons, and app icons. Features real-time previews and multiple export options.",
+    tech: ["Astro", "Tailwind", "TypeScript"],
+    image: "https://s0.wp.com/mshots/v1/https://everyicon.pages.dev/?w=1000",
+    live: "https://everyicon.pages.dev/",
+    github: "#"
+  },
+  {
+    title: "CaptionAI Pro",
+    desc: "An AI-powered image caption generator that creates engaging captions for social media in various languages and writing styles.",
+    tech: ["Astro", "Tailwind", "AI API"],
+    image: "https://s0.wp.com/mshots/v1/https://captionaipro.pages.dev/?w=1000",
+    live: "https://captionaipro.pages.dev/",
+    github: "#"
+  },
+  {
+    title: "CapAI Generator",
+    desc: "AI-powered tool that automatically generates compelling image captions in multiple formats and tones for creators.",
+    tech: ["Next.js", "Tailwind", "AI"],
+    image: "https://s0.wp.com/mshots/v1/https://capai.vercel.app/?w=1000",
+    live: "https://capai.vercel.app/",
+    github: "#"
+  },
+  {
+    title: "RNC Fintax",
+    desc: "A comprehensive platform for income tax filing, GST registration, company incorporation, and payroll services.",
+    tech: ["Next.js", "Tailwind", "React"],
+    image: "https://s0.wp.com/mshots/v1/https://rncfintax.vercel.app/?w=1000",
+    live: "https://rncfintax.vercel.app/",
+    github: "#"
+  },
+  {
+    title: "GovPhoto Resizer",
+    desc: "A smooth, minimal tool to resize and compress photos and signatures strictly according to SSC specifications without losing quality.",
+    tech: ["React", "Vite", "Tailwind"],
+    image: "https://s0.wp.com/mshots/v1/https://govphoto.netlify.app/?w=1000",
+    live: "https://govphoto.netlify.app/",
     github: "#"
   }
 ];

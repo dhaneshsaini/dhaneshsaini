@@ -29,8 +29,8 @@ function Counter({ from = 0, to, duration = 2 }: { from?: number, to: number, du
 const stats = [
   { value: 10, label: "Projects Completed", suffix: "+" },
   { value: 10, label: "Happy Clients", suffix: "+" },
-  { value: 15, label: "Technologies", suffix: "+" },
-  { value: 5, label: "Years Experience", suffix: "+" },
+  { value: 10, label: "Technologies", suffix: "+" },
+  { value: 3, label: "Years Experience", suffix: "+" },
 ];
 
 export function Stats() {

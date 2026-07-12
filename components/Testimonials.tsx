@@ -5,14 +5,14 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "CEO at TechStart",
-    content: "Dhanesh completely transformed our online presence. The new website is incredibly fast, looks premium, and our conversion rates have doubled since launch.",
+    name: "Dr. Pooran Arya",
+    role: "Hitarth Hospital",
+    content: "Dhanesh created an exceptional, fast, and user-friendly website for our hospital. His attention to detail in highlighting our medical facilities and online booking system was exactly what we needed. Highly recommended!",
   },
   {
-    name: "Michael Chen",
-    role: "Founder, HealthPlus",
-    content: "Working with Dhanesh was a breeze. He understood our complex requirements for the healthcare dashboard and delivered a pixel-perfect, secure application.",
+    name: "Dr. Nitin Sharma",
+    role: "Medical Professional",
+    content: "Working with Dhanesh was a fantastic experience. He understood our specific needs and delivered a highly professional online presence that truly reflects the quality of our healthcare services.",
   },
 ];
 
